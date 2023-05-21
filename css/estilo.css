@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,9 +25,9 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 270px;
-    height: 490px;
-    background: url(../imagens/iphone.png) no-repeat top center;
+    width: 190px;
+    height: 382px;
+    background: url(../imagens/frame-iphone.png) no-repeat top center;
     background-size: cover;
 }
 #telefone{
@@ -33,10 +35,24 @@ section{
 }
 #telaIphone{
     position: relative;
-    width: 213px;
-    height: 448px;
-    top:10px;
-    left: 28px;
-    border-radius: 20px;
-    border: solid 2px black;
+    width: 164px;
+    height: 294px;
+    top:49px;
+    left: 13px;
+}
+#redeSocial{
+    text-align: right;
+}
+#redeSocial img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 8px 5px;
+    box-sizing: border-box;
+    transition: bordr  .3s, transform .3s;
+}
+#redeSocial img:hover{
+    border: 2px solid rgba(88, 84, 84, 0.281);
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 3px 5px rgba(69, 85, 99, 0.562);
 }
